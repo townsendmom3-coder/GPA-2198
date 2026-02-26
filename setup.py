@@ -1,13 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='GPA-2198',
-    version='0.1',
+    name='gpa-2198-fidelity-plotter',
+    version='0.1.0',
+    description='GPA-2198 fidelity plotting tool',
+    author='townsendmom3-coder',
     packages=find_packages(),
-    install_requires=[],  # Add your package dependencies here
-    entry_points={
-        'console_scripts': [
-            'fidelity_plotter=your_module_name:main',  # Replace 'your_module_name:main' with the actual module and function
-        ],
-    },
+    install_requires=[],  # List dependencies here
 )
