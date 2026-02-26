@@ -1,6 +1,7 @@
-openpyxl
 pandas
-numpy
+openpyxl
 matplotlib
 plotly
+numpy
 scipy
+scikit-learn
